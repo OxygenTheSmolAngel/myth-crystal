@@ -1144,7 +1144,7 @@ AI_Smart_Encore:
 
 	pop hl
 	ld a, [wTypeMatchup]
-	cp $a
+	cp EFFECTIVE
 	jr nc, .weakmove
 
 	and a
