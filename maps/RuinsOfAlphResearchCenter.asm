@@ -60,7 +60,7 @@ RuinsOfAlphResearchCenterAcademicBooks:
     iffalsefwd .NoBook
     special Special_FadeOutMusic
     pause 15
-    playmusic MUSIC_FAINT_COURAGE
+    playmusic MUSIC_THE_LEGEND
     opentext
     writetext UnownKingBookReadText
     waitbutton

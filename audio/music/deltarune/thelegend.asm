@@ -1,11 +1,11 @@
-Music_FaintCourage:
+Music_TheLegend:
 	channel_count 4
-	channel 1, Music_FaintCourage_Ch1
-	channel 2, Music_FaintCourage_Ch2
-	channel 3, Music_FaintCourage_Ch3
-	channel 4, Music_FaintCourage_Ch4
+	channel 1, Music_TheLegend_Ch1
+	channel 2, Music_TheLegend_Ch2
+	channel 3, Music_TheLegend_Ch3
+	channel 4, Music_TheLegend_Ch4
 
-Music_FaintCourage_Ch1:
+Music_TheLegend_Ch1:
 	volume 7, 7
 	note_type 6, 10, 7
 	tempo 87
@@ -15,7 +15,7 @@ Music_FaintCourage_Ch1:
 	rest 16
 	octave 4
 	duty_cycle 3
-	volume_envelope 2, -7
+	volume_envelope 4, -7
 	note C_, 16
 	note C_, 16
 	octave 3
@@ -326,7 +326,7 @@ Music_FaintCourage_Ch1:
 	octave 3
 	sound_ret
 
-Music_FaintCourage_Ch2:
+Music_TheLegend_Ch2:
 	note_type 6, 2, 7
 	rest 16
 	octave 4
@@ -654,7 +654,7 @@ Music_FaintCourage_Ch2:
 	octave 3
 	sound_ret
 
-Music_FaintCourage_Ch3:
+Music_TheLegend_Ch3:
 	note_type 6, 1, 12
 	octave 4
 	vibrato 2, 0, 3
@@ -1051,7 +1051,7 @@ Music_FaintCourage_Ch3:
 	note E_, 4
 	sound_ret
 
-Music_FaintCourage_Ch4:
+Music_TheLegend_Ch4:
 	toggle_noise 1
 	drum_speed 6
 	rest 16

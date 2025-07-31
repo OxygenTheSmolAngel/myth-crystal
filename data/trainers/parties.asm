@@ -82,12 +82,12 @@ FalknerGroup:
 
 	def_trainer_class FALKNER
 	def_trainer 1, "Falkner"
+	tr_mon 10, NATU @ EVIOLITE
+		tr_evs 32 SAt
+		tr_moves TACKLE, HYPNOSIS, PECK, CONFUSION
 	tr_mon 11, DODUO
 		tr_evs 32 Spe
 		tr_moves RAGE, PROTECT, PECK
-	tr_mon 11, HOOTHOOT @ EVIOLITE
-		tr_evs 32 SAt
-		tr_moves TACKLE, HYPNOSIS, PECK, CONFUSION
 	tr_mon 12, FARFETCH_D
 		tr_evs 32 Atk
 		tr_moves CUT, AGILITY, PECK, SWAGGER
@@ -103,8 +103,8 @@ FalknerGroup:
 		tr_moves SWORDS_DANCE, EARTHQUAKE, X_SCISSOR, NIGHT_SLASH
 	tr_mon 72, DODRIO @ SILK_SCARF
 		tr_moves DRILL_PECK, BULLDOZE, PURSUIT, BRAVE_BIRD
-	tr_mon 70, SIRFETCH_D @ FOCUS_SASH
-		tr_moves ANCIENTPOWER, HURRICANE, NASTY_PLOT, FRESH_SNACK
+    tr_mon 70, XATU @ LEFTOVERS
+		tr_moves LIGHT_SCREEN, U_TURN, ROOST, PSYCHIC_M
 	tr_mon 72, HONCHKROW @ BLACKGLASSES
 		tr_moves BRAVE_BIRD, NIGHT_SLASH, SUCKER_PUNCH, CONFUSE_RAY
 	tr_mon 75, PIDGEOT @ SHARP_BEAK
