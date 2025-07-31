@@ -83,7 +83,7 @@ FalknerGroup:
 	def_trainer_class FALKNER
 	def_trainer 1, "Falkner"
 	tr_mon 10, NATU @ EVIOLITE
-		tr_evs 32 SAt
+		tr_evs 32 HP
 		tr_moves PECK, LEER, NIGHT_SHADE, MUD_SLAP
 	tr_mon 11, DODUO
 		tr_evs 32 Spe
