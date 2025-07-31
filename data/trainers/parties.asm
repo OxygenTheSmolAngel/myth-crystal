@@ -84,7 +84,7 @@ FalknerGroup:
 	def_trainer 1, "Falkner"
 	tr_mon 10, NATU @ EVIOLITE
 		tr_evs 32 SAt
-		tr_moves TACKLE, HYPNOSIS, PECK, CONFUSION
+		tr_moves PECK, LEER, NIGHT_SHADE, MUD_SLAP
 	tr_mon 11, DODUO
 		tr_evs 32 Spe
 		tr_moves RAGE, PROTECT, PECK
