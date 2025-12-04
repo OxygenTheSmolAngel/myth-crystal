@@ -2664,7 +2664,7 @@ endc
 	learnset 25, PSYBEAM
 	learnset 29, SUBSTITUTE
 	learnset 32, CONFUSE_RAY ; Recycle → egg move
-	learnset 36, TRICK
+	learnset 36, SKILL_SWAP
 	learnset 39, PSYCHIC_M
 	learnset 43, FUTURE_SIGHT ; Role Play → egg move
 	learnset 46, BATON_PASS
@@ -2836,7 +2836,7 @@ endc
 
 	evos_attacks Magikarp
 	evo_data EVOLVE_LEVEL, 20, GYARADOS, NO_FORM ; preserve pre-evo form
-	learnset 1, SPLASH
+	learnset 1, STRUGGLE
 	learnset 15, TACKLE
 	learnset 30, REVERSAL ; Flail → event move
 
@@ -2897,6 +2897,7 @@ endc
 	evo_data EVOLVE_LOCATION, ICE_PATH, GLACEON
 	evo_data EVOLVE_HAPPINESS, TR_MORNDAY, ESPEON
 	evo_data EVOLVE_HAPPINESS, TR_EVENITE, UMBREON
+	evo_data EVOLVE_MOVE, DRAINING_KISS, SYLVEON
 	learnset 1, GROWL
 	learnset 1, TACKLE
 	learnset 1, LEER ; Tail Whip → similar move
@@ -2908,6 +2909,7 @@ endc
 	learnset 20, HEAL_BELL ; Refresh → HGSS tutor move
 	learnset 23, THIEF ; Covet → TM move
 	learnset 25, TAKE_DOWN
+	learnset 28, DRAINING_KISS
 	learnset 29, CHARM
 	learnset 33, BATON_PASS
 	learnset 37, DOUBLE_EDGE
@@ -3380,6 +3382,7 @@ endc
 
 	evos_attacks Quilava
 	evo_data EVOLVE_LEVEL, 36, TYPHLOSION
+	evo_data EVOLVE_ITEM, DUSK_STONE, TYPHLOSION, HISUIAN_FORM
 	learnset 1, TACKLE
 	learnset 1, LEER
 	learnset 6, SMOKESCREEN
@@ -3719,7 +3722,7 @@ endc
 
 	evos_attacks Cleffa
 	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, CLEFAIRY
-	learnset 1, SPLASH
+	learnset 1, STRUGGLE
 	learnset 1, TACKLE ; Pound → similar move
 	learnset 1, METRONOME ; Copycat → egg move
 	learnset 4, SING
@@ -3948,7 +3951,7 @@ endc
 	evos_attacks Hoppip
 	evo_data EVOLVE_LEVEL, 18, SKIPLOOM
 	learnset 1, ABSORB
-	learnset 1, SPLASH
+	learnset 1, STRUGGLE
 	learnset 4, HEALINGLIGHT ; Synthesis → similar move
 	learnset 6, DEFENSE_CURL; Tail Whip → tutor move
 	learnset 8, TACKLE
@@ -3971,7 +3974,7 @@ endc
 	evos_attacks Skiploom
 	evo_data EVOLVE_LEVEL, 27, JUMPLUFF
 	learnset 1, ABSORB
-	learnset 1, SPLASH
+	learnset 1, STRUGGLE
 	learnset 4, HEALINGLIGHT ; Synthesis → similar move
 	learnset 6, DEFENSE_CURL; Tail Whip → tutor move
 	learnset 8, TACKLE
@@ -3993,7 +3996,7 @@ endc
 
 	evos_attacks Jumpluff
 	learnset 1, ABSORB
-	learnset 1, SPLASH
+	learnset 1, STRUGGLE
 	learnset 4, HEALINGLIGHT ; Synthesis → similar move
 	learnset 6, DEFENSE_CURL; Tail Whip → tutor move
 	learnset 8, TACKLE
@@ -4032,7 +4035,7 @@ endc
 
 	evos_attacks Sunkern
 	evo_data EVOLVE_ITEM, SUN_STONE, SUNFLORA
-	learnset 1, SPLASH ; Growth → Hoppip move
+	learnset 1, STRUGGLE ; Growth → Hoppip move
 	learnset 1, ABSORB
 	learnset 4, GROWTH ; Ingrain → Growth
 	learnset 7, DEFENSE_CURL ; Grass Whistle → TM move
@@ -4050,7 +4053,7 @@ endc
 	learnset 43, SEED_BOMB
 
 	evos_attacks Sunflora
-	learnset 1, SPLASH ; Growth → Hoppip move
+	learnset 1, STRUGGLE ; Growth → Hoppip move
 	learnset 1, TACKLE ; Pound → similar move
 	learnset 1, ABSORB
 if !DEF(FAITHFUL)
@@ -4262,7 +4265,7 @@ endc
 	learnset 1, HIDDEN_POWER
 
 	evos_attacks Wobbuffet
-	learnset 1, SPLASH
+	learnset 1, STRUGGLE
 	learnset 1, CHARM
 	learnset 1, ENCORE
 	learnset 1, AMNESIA
@@ -5248,7 +5251,7 @@ endc
 
 	evos_attacks Azurill
 	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, MARILL
-	learnset 1, SPLASH
+	learnset 1, STRUGGLE
 	learnset 1, WATER_GUN
 	learnset 2, GROWL ; Tail Whip → new move
 	learnset 5, FORESIGHT ; Water Sport → Marill egg move
@@ -5261,7 +5264,7 @@ endc
 
 	evos_attacks Wynaut
 	evo_data EVOLVE_LEVEL, 15, WOBBUFFET
-	learnset 1, SPLASH
+	learnset 1, STRUGGLE
 	learnset 1, CHARM
 	learnset 1, ENCORE
 	learnset 1, AMNESIA
@@ -5345,7 +5348,7 @@ endc
 	learnset 25, PSYBEAM
 	learnset 29, SUBSTITUTE
 	learnset 32, CONFUSE_RAY ; Recycle → egg move
-	learnset 36, TRICK
+	learnset 36, SKILL_SWAP
 	learnset 39, PSYCHIC_M
 	learnset 43, FUTURE_SIGHT ; Role Play → egg move
 	learnset 46, BATON_PASS
@@ -5935,6 +5938,22 @@ endc
 	learnset 44, SCREECH
 	learnset 48, GUNK_SHOT ; Stomping Tantrum → HGSS tutor move
 	learnset 53, OUTRAGE
+
+	evos_attacks Unownking
+	learnset 1, BITE
+	learnset 1, LEER
+	learnset 6, CONFUSION
+	learnset 15, PROTECT
+	learnset 22, BELLY_DRUM
+	learnset 29, CRUNCH
+	learnset 36, GLARE
+	learnset 36, THRASH
+	learnset 43, BODY_SLAM
+	learnset 47, BULLET_PUNCH
+	learnset 50, ANCIENTPOWER
+	learnset 60, ZEN_HEADBUTT
+	learnset 75, GIGA_IMPACT
+	learnset 85, BERSERKCHOMP
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

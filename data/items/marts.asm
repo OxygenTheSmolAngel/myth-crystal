@@ -118,10 +118,11 @@ Goldenrod2FMart2:
 	db POKE_DOLL
 	db BLUESKY_MAIL
 	db MORPH_MAIL
+	db EON_MAIL
 	db -1
 
 Goldenrod2FMart2Eevee:
-	db 11 ; # items
+	db 12 ; # items
 	db POKE_BALL
 	db GREAT_BALL
 	db LUXURY_BALL
@@ -130,33 +131,35 @@ Goldenrod2FMart2Eevee:
 	db ESCAPE_ROPE
 	db REPEL
 	db POKE_DOLL
-	db BLUESKY_MAIL
-	db MORPH_MAIL
-	db EON_MAIL
+	db FIRE_STONE
+	db WATER_STONE
+	db THUNDERSTONE
+	db LEAF_STONE
 	db -1
 
 Goldenrod3FMart:
 Celadon5FMart2:
 	db 8 ; # items
-	db X_ATTACK
-	db X_DEFEND
-	db X_SPEED
-	db X_SP_ATK
-	db X_SP_DEF
-	db X_ACCURACY
-	db DIRE_HIT
-	db GUARD_SPEC
+	db KINGS_ROCK
+	db RAZOR_FANG
+	db RAZOR_CLAW
+	db PROTECTOR
+	db DUSK_STONE
+	db SHINY_STONE
+	db ELECTIRIZER
+	db MAGMARIZER
 	db -1
 
 Goldenrod4FMart:
 Celadon5FMart1:
-	db 6 ; # items
+	db 7 ; # items
 	db PROTEIN
 	db IRON
 	db CARBOS
 	db CALCIUM
 	db ZINC
 	db HP_UP
+	db PP_UP
 	db -1
 
 Goldenrod5FTMMart:
@@ -204,7 +207,7 @@ EcruteakMart:
 	db -1
 
 OlivineMart:
-	db 10 ; # items
+	db 11 ; # items
 	db GREAT_BALL
 	db DIVE_BALL
 	db SUPER_POTION
@@ -214,6 +217,7 @@ OlivineMart:
 	db AWAKENING
 	db ICE_HEAL
 	db SUPER_REPEL
+	db METAL_COAT
 	db SURF_MAIL
 	db -1
 
@@ -227,8 +231,9 @@ CianwoodMart:
 	db -1
 
 YellowForestMart:
-	db 4 ; # items
+	db 5 ; # items
 	db POKE_BALL
+	db GREAT_BALL
 	db REPEL
 	db FRESH_WATER
 	db FULL_HEAL
@@ -247,7 +252,7 @@ MahoganyMart2:
 	db RAGECANDYBAR
 	db AIR_BALLOON
 	db QUICK_CLAW
-	db KINGS_ROCK
+	db ODD_SOUVENIR
 	db GREAT_BALL
 	db SUPER_POTION
 	db HYPER_POTION
@@ -266,8 +271,8 @@ BlackthornMart:
 	db FULL_HEAL
 	db REVIVE
 	db MAX_REPEL
-	db X_DEFEND
-	db X_ATTACK
+	db MUSCLE_BAND
+	db DRAGON_SCALE
 	db MUSIC_MAIL
 	db -1
 
@@ -404,14 +409,13 @@ Celadon3FTMMart:
 	db -1
 
 Celadon4FMart:
-	db 10 ; # items
+	db 9 ; # items
 	db POKE_DOLL
-	db FIRE_STONE
-	db WATER_STONE
-	db THUNDERSTONE
-	db LEAF_STONE
+	db SUN_STONE
+	db MOON_STONE
 	db ICE_STONE
 	db LINKING_CORD
+	db SOOTHE_BELL
 	db EXP_SHARE
 	db LOVELY_MAIL
 	db SURF_MAIL
@@ -490,10 +494,11 @@ BattleTowerMart1:
 	db -1
 
 BattleTowerMart2:
-	db 9 ; # items
+	db 10 ; # items
 	db RARE_CANDY,   16
 	db PP_MAX,       64
 	db ABILITY_CAP,  32
+	db BOTTLE_CAP,   32
 	db WEAK_POLICY,  48
 	db BLUNDRPOLICY, 48
 	db SCOPE_LENS,   16
@@ -539,7 +544,7 @@ BattleFactoryMart2:
 	db -1
 
 BattleFactoryMart3:
-	db 8 ; # items
+	db 9 ; # items
 	db CLEAR_AMULET, 16
 	db BINDING_BAND, 32
 	db GRIP_CLAW,    32
@@ -548,4 +553,5 @@ BattleFactoryMart3:
 	db ROOM_SERVICE, 24
 	db LIFE_ORB,     48
 	db MINT_LEAF,    32
+	db ABILITYPATCH, 64
 	db -1

@@ -1,4 +1,18 @@
-# Credits
+# Polished Crystal by:
+Rangi42 (Sylvie)
+
+# Unown King design by:
+ScorchVx
+(The design is from FNF: The Unown King's Curse)
+
+# Custom Unown King, Celebi (Lost Silver) and Gold (Lost Silver) Front Sprites by:
+Oxygen (Me)
+
+Gold (Lost Silver) Back Sprite by:
+Nikki (from the Crystal Clear Discord Server)
+
+-------------
+# Polished Crystal Credits
 
 Pokémon Polished Crystal would never have been finished without the help of many more people than just me. Please let me know if I've failed to credit anyone or if you don't want your work being used.
 

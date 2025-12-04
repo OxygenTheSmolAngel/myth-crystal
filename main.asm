@@ -23,7 +23,7 @@ SECTION "bank2", ROMX
 INCLUDE "engine/overworld/player_object.asm"
 INCLUDE "data/predef_pointers.asm"
 INCLUDE "engine/gfx/color.asm"
-
+INCLUDE "engine/events/shiny_celebi.asm"
 
 SECTION "bank3", ROMX
 

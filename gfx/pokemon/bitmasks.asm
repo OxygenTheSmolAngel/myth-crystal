@@ -239,6 +239,7 @@ OverqwilBitmasks:   INCLUDE "gfx/pokemon/overqwil/bitmask.asm"
 FarigirafBitmasks:  INCLUDE "gfx/pokemon/farigiraf/bitmask.asm"
 ClodsireBitmasks:   INCLUDE "gfx/pokemon/clodsire/bitmask.asm"
 AnnihilapeBitmasks: INCLUDE "gfx/pokemon/annihilape/bitmask.asm"
+UnownkingBitmasks:  INCLUDE "gfx/pokemon/unownking/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 
@@ -307,6 +308,10 @@ MagikarpForehead2Bitmasks: INCLUDE "gfx/pokemon/magikarp_forehead2/bitmask.asm"
 MagikarpMask2Bitmasks:     INCLUDE "gfx/pokemon/magikarp_mask2/bitmask.asm"
 MagikarpSaucyBitmasks:     INCLUDE "gfx/pokemon/magikarp_saucy/bitmask.asm"
 MagikarpRaindropBitmasks:  INCLUDE "gfx/pokemon/magikarp_raindrop/bitmask.asm"
+
+UnownkingClassicBitmasks:  INCLUDE "gfx/pokemon/unownking_drawing/bitmask.asm"
+
+CelebiLostBitmasks:     INCLUDE "gfx/pokemon/celebi_lost/bitmask.asm"
 
 DudunsparceTwoSegmentBitmasks:   INCLUDE "gfx/pokemon/dudunsparce_two_segment/bitmask.asm"
 DudunsparceThreeSegmentBitmasks: INCLUDE "gfx/pokemon/dudunsparce_three_segment/bitmask.asm"

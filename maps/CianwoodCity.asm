@@ -50,7 +50,7 @@ CianwoodCity_MapScriptHeader:
 	const CIANWOODCITY_SUICUNE
 
 CianwoodCityFlyPointAndSuicune:
-	setflag ENGINE_FLYPOINT_CIANWOOD
+	clearflag ENGINE_FLYPOINT_CIANWOOD
 	setevent EVENT_EUSINE_IN_BURNED_TOWER
 	checkevent EVENT_BEAT_EUSINE
 	iffalsefwd .Done

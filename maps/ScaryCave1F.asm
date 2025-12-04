@@ -291,18 +291,53 @@ GenericTrainerCoupleJoeandjo2:
 GenericTrainerHex_maniacBethany:
 	generictrainer HEX_MANIAC, BETHANY, EVENT_BEAT_HEX_MANIAC_BETHANY, .SeenText, .BeatenText
 
-	text "The aura of fear"
-	line "in this cave is"
-	cont "delightful…"
-	cont "Fufufufu…"
+	text "However, the"
+	line "scariest thing in"
+	cont "this cave?"
+
+	para "It was when I…"
+	line "encounters…"
+
+	para "The creature."
 	done
 
 .SeenText: ; text > text
-	text "BOO!"
+	text "Try not to get"
+	line "scared."
+	cont "Scariest Stories."
+
+	para "I was just"
+	line "explorings around"
+	cont "the Kanto region."
+
+	para "But soon, I find"
+	line "a strange cave."
+
+	para "'Yippie! I can"
+	line "not wait to"
+	cont "explores this"
+	cont "cave!' I says"
+	cont "with excitement."
+
+	para "But then, I"
+	line "realized this"
+	cont "wasn't any"
+	cont "regular cave."
+
+	para "Rather, it was..."
+
+	para "Scary Cave."
+
 	done
 
 .BeatenText:
-	text "Did I scare you?"
+	text "When I enters the"
+	line "cave, the water"
+	cont "was blood red."
+
+	para "'Woahh, this cave"
+	line "is indeed scary',"
+	cont "I exclaims."
 	done
 
 GenericTrainerScientistPiotr:

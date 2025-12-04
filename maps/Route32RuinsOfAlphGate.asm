@@ -34,6 +34,8 @@ Route32RuinsOfAlphGatePokefanMText:
 
 	para "I see a scientist"
 	line "in the making."
+
+	para "This is a test."
 	done
 
 Route32RuinsOfAlphGateYoungsterText:

@@ -266,6 +266,7 @@ AlphabeticalPokedexOrder:
 	dp TYROGUE
 	dp UMBREON
 	dp UNOWN
+	dp UNOWN_KING
 	dp URSALUNA
 	dp URSARING
 	dp VAPOREON
@@ -291,4 +292,5 @@ AlphabeticalPokedexOrder:
 	dp YANMEGA
 	dp ZAPDOS
 	dp ZUBAT
+
 	assert_table_length NUM_POKEMON

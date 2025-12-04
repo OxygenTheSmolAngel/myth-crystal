@@ -110,7 +110,7 @@ DEF NUM_RADIO_SEGMENTS EQU const_value
 DEF NUM_MAP_RADIO_STATIONS EQU const_value
 
 ; BuenasPasswordTable sizes (see data/radio/buenas_passwords.asm)
-DEF NUM_PASSWORD_CATEGORIES EQU 11
+DEF NUM_PASSWORD_CATEGORIES EQU 13
 DEF NUM_PASSWORDS_PER_CATEGORY EQU 3
 
 ; GetBuenasPassword.StringFunctionJumpTable indexes (see engine/pokegear/radio.asm)
@@ -119,3 +119,4 @@ DEF NUM_PASSWORDS_PER_CATEGORY EQU 3
 	const BUENA_ITEM
 	const BUENA_MOVE
 	const BUENA_STRING
+	const BUENA_FUNNY

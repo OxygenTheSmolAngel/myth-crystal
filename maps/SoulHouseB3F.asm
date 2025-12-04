@@ -20,13 +20,16 @@ SoulHouseB3F_MapScriptHeader:
 SoulHouseB3FMrFujiScript:
 	faceplayer
 	opentext
-	writetext .Text1
-	promptbutton
+	writetext MrFujiText
+	waitbutton
+	writetext MrFujiGiveSilphScopeText
+	waitbutton
 	verbosegivekeyitem SILPHSCOPE2
-	setevent EVENT_GOT_SILPHSCOPE2_FROM_MR_FUJI
-	writetext .Text2
+
+	writetext MrFujiUseThisText
 	waitbutton
 	closetext
+	setevent EVENT_GOT_SILPHSCOPE2_FROM_MR_FUJI
 	readvar VAR_FACING
 	ifequalfwd RIGHT, .GoAround
 	applymovement SOULHOUSEB3F_MRFUJI, .LeaveMovement
@@ -37,16 +40,8 @@ SoulHouseB3FMrFujiScript:
 	applymovement SOULHOUSEB3F_MRFUJI, .GoAroundMovement2
 .Finish
 	disappear SOULHOUSEB3F_MRFUJI
-	clearevent EVENT_SOUL_HOUSE_MR_FUJI
+	setevent EVENT_SOUL_HOUSE_MR_FUJI
 	end
-
-.Text1:
-	text "TODO"
-	done
-
-.Text2:
-	text "TODO"
-	done
 
 .LeaveMovement:
 	slow_step_left
@@ -72,3 +67,55 @@ SoulHouseB3FMrFujiScript:
 	slow_step_up
 	slow_step_up
 	step_end
+
+MrFujiText:
+	text "Mr.Fuji: Welcome."
+
+	para "I was just here"
+	line "mourning for a"
+	cont "bit."
+
+	para "Hmm… You appear to"
+	line "be raising your"
+
+	para "#mon in a kind"
+	line "and loving manner."
+
+	para "#mon lovers"
+	line "come here to pay"
+
+	para "their respects to"
+	line "departed #mon."
+
+	para "Please offer con-"
+	line "dolences for the"
+
+	para "souls of the de-"
+	line "parted #mon."
+
+	para "I'm sure that will"
+	line "make them happy."
+	done
+
+MrFujiGiveSilphScopeText:
+	text "Here, I have"
+	line "a gift for you."
+
+	para "Please, take it."
+	done
+
+MrFujiUseThisText:
+	text "You may use that"
+	line "to help ease the"
+
+	para "souls of any"
+	line "restless #mon."
+
+	para "With that said,"
+	line "I should head back"
+	cont "upstairs."
+
+	para "Please take good"
+	line "care of your"
+	cont "#mon, alright?"
+	done

@@ -1108,6 +1108,11 @@ CelebiFrontpic: INCBIN "gfx/pokemon/celebi/front.animated.2bpp.lz"
 CelebiBackpic:  INCBIN "gfx/pokemon/celebi/back.2bpp.lz"
 CelebiFrames:   INCLUDE "gfx/pokemon/celebi/frames.asm"
 
+SECTION "Celebi Lost Pics", ROMX
+CelebiLostFrontpic: INCBIN "gfx/pokemon/celebi_lost/front.animated.2bpp.lz"
+CelebiLostBackpic:  INCBIN "gfx/pokemon/celebi_lost/back.2bpp.lz"
+CelebiLostFrames:  INCLUDE "gfx/pokemon/celebi_lost/frames.asm"
+
 SECTION "Azurill Pics", ROMX
 AzurillFrontpic: INCBIN "gfx/pokemon/azurill/front.animated.2bpp.lz"
 AzurillBackpic:  INCBIN "gfx/pokemon/azurill/back.2bpp.lz"
@@ -1321,6 +1326,16 @@ SECTION "UnownQuestion Pics", ROMX
 UnownQuestionFrontpic: INCBIN "gfx/pokemon/unown_question/front.animated.2bpp.lz"
 UnownQuestionBackpic:  INCBIN "gfx/pokemon/unown_question/back.2bpp.lz"
 UnownQuestionFrames:   INCLUDE "gfx/pokemon/unown_question/frames.asm"
+
+SECTION "Unownking Pics", ROMX
+UnownkingFrontpic: INCBIN "gfx/pokemon/unownking/front.animated.2bpp.lz"
+UnownkingClassicFrontpic: INCBIN "gfx/pokemon/unownking_drawing/front.animated.2bpp.lz"
+UnownkingBackpic:  INCBIN "gfx/pokemon/unownking/back.2bpp.lz"
+UnownkingClassicBackpic:  INCBIN "gfx/pokemon/unownking_drawing/back.2bpp.lz"
+UnownkingFrames:  INCLUDE "gfx/pokemon/unownking/frames.asm"
+UnownkingClassicFrames:  INCLUDE "gfx/pokemon/unownking_drawing/frames.asm"
+
+
 
 SECTION "Pikachu Pics", ROMX
 PikachuPlainFrontpic: INCBIN "gfx/pokemon/pikachu_plain/front.animated.2bpp.lz"

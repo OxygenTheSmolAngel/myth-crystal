@@ -295,6 +295,7 @@ MiniIconPointers:
 	mini_icon Farigiraf
 	mini_icon Clodsire
 	mini_icon Annihilape
+	mini_icon Unownking
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB
@@ -337,6 +338,10 @@ MiniIconPointers:
 	mini_icon Pikachu ; Spark
 
 	mini_icon Pichu ; Spiky
+
+	mini_icon UnownkingClassic ; Classic
+
+	mini_icon CelebiLost ; Lost
 
 rept NUM_MAGIKARP - 1
 	mini_icon Magikarp

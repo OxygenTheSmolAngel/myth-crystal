@@ -2895,6 +2895,16 @@ AnnihilapePokedexEntry::
 	next "ttered by its"
 	next "physical body.@"
 
+SECTION "UnownkingPokedexEntry", ROMX
+UnownkingPokedexEntry::
+	db "Hungry King@"
+	db   "It was sealed in"
+	next "the depths of the"
+	next "Ruins of Alph."
+	page "Once awakened, it"
+	next "will kill anything"
+	next "for food.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

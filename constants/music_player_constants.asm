@@ -42,6 +42,12 @@ DEF NUM_MP_EDIT_FIELDS EQU const_value
 	const ORIGIN_M02       ; 10
 	const ORIGIN_PRISM     ; 11
 	const ORIGIN_UNDERTALE ; 12
+	const ORIGIN_DELTARUNE ; 13
+	const ORIGIN_BLUESKY   ; 14
+	const ORIGIN_KIRBY64   ; 15
+	const ORIGIN_SKNIGHT   ; 16
+	const ORIGIN_LULLABY   ; 17
+	const ORIGIN_YOUTUBE   ; 18
 DEF NUM_SONG_ORIGINS EQU const_value
 
 ; SongArtists indexes (see data/music_player/song_artists.asm)
@@ -50,28 +56,34 @@ DEF NUM_SONG_ORIGINS EQU const_value
 	const COMPOSER_JUNICHI_MASUDA                ; 01
 	const COMPOSER_GO_ICHINOSE                   ; 02
 	const COMPOSER_JUNICHI_MASUDA_GO_ICHINOSE    ; 03
-	const COMPOSER_MORIKAZU_AOKI                 ; 04
-	const COMPOSER_SHOTA_KAGEYAMA                ; 05
-	const COMPOSER_JUNICHI_MASUDA_SHOTA_KAGEYAMA ; 06
-	const COMPOSER_HITOMI_SATO                   ; 07
-	const COMPOSER_MINAKO_ADACHI                 ; 08
-	const COMPOSER_ICHIRO_SHIMAKURA              ; 09
-	const COMPOSER_JOHN_LISSAUER_RALPH_SCHUCKETT ; 0a
-	const COMPOSER_FROGGESTSPIRIT                ; 0b
-	const COMPOSER_MMMMMM                        ; 0c
-	const COMPOSER_PUM                           ; 0d
-	const COMPOSER_SHANTYTOWN                    ; 0e
-	const COMPOSER_PIGU                          ; 0f
-	const COMPOSER_SHOCKSLAYER                   ; 10
-	const COMPOSER_MONSTARULES                   ; 11
-	const COMPOSER_TRITEHEXAGON                  ; 12
-	const COMPOSER_PIGU_PIKALAXALT               ; 13
-	const COMPOSER_GACT_PIGU                     ; 14
-	const COMPOSER_LEVUSBEVUS                    ; 15
-	const COMPOSER_GACT                          ; 16
-	const COMPOSER_GRONNOC                       ; 17
-	const COMPOSER_CAT333POKEMON                 ; 18
-	const COMPOSER_NOTFROGGESTSPIRIT             ; 19
-	const COMPOSER_TOBY_FOX                      ; 1a
-	const COMPOSER_SHINKONETCAVY_SHOCKSLAYER     ; 1b
+	const COMPOSER_GO_ICHINOSE_JUN_ISHIKAWA      ; 04
+	const COMPOSER_MORIKAZU_AOKI                 ; 05
+	const COMPOSER_SHOTA_KAGEYAMA                ; 06
+	const COMPOSER_JUNICHI_MASUDA_SHOTA_KAGEYAMA ; 07
+	const COMPOSER_HITOMI_SATO                   ; 08
+	const COMPOSER_MINAKO_ADACHI                 ; 09
+	const COMPOSER_ICHIRO_SHIMAKURA              ; 0a
+	const COMPOSER_JOHN_LISSAUER_RALPH_SCHUCKETT ; 0b
+	const COMPOSER_FROGGESTSPIRIT                ; 0c
+	const COMPOSER_MMMMMM                        ; 0d
+	const COMPOSER_PUM                           ; 0e
+	const COMPOSER_SHANTYTOWN                    ; 0f
+	const COMPOSER_PIGU                          ; 10
+	const COMPOSER_SHOCKSLAYER                   ; 11
+	const COMPOSER_MONSTARULES                   ; 12
+	const COMPOSER_TRITEHEXAGON                  ; 13
+	const COMPOSER_PIGU_PIKALAXALT               ; 14
+	const COMPOSER_GACT_PIGU                     ; 15
+	const COMPOSER_LEVUSBEVUS                    ; 16
+	const COMPOSER_GACT                          ; 17
+	const COMPOSER_GRONNOC                       ; 18
+	const COMPOSER_CAT333POKEMON                 ; 19
+	const COMPOSER_NOTFROGGESTSPIRIT             ; 1a
+	const COMPOSER_TOBY_FOX                      ; 1b
+	const COMPOSER_SHINKONETCAVY_SHOCKSLAYER     ; 1c
+	const COMPOSER_OXYGENTHESMOLANGEL            ; 1d
+	const COMPOSER_JUN_ISHIKAWA                  ; 1e
+	const COMPOSER_MANAMI_MATSUMAE               ; 1f
+	const COMPOSER_ADAM_MCHUMMUS                 ; 20
+	const COMPOSER_LADY_GAGA_LHUGUENY            ; 21
 DEF NUM_SONG_ARTISTS EQU const_value

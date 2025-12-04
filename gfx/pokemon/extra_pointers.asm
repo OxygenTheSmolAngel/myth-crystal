@@ -255,7 +255,7 @@ AnimationExtraPointers:
 	dw WynautAnimationExtra
 	dw AmbipomAnimationExtra
 	dw EggAnimationExtra
-	dw EggAnimationExtra ; $100
+	dw EggAnimationExtra
 	dw MismagiusAnimationExtra
 	dw HonchkrowAnimationExtra
 	dw BonslyAnimationExtra
@@ -291,6 +291,7 @@ AnimationExtraPointers:
 	dw FarigirafAnimationExtra
 	dw ClodsireAnimationExtra
 	dw AnnihilapeAnimationExtra
+	dw UnownkingAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra
@@ -353,6 +354,10 @@ AnimationExtraPointers:
 	dw MagikarpMask2AnimationExtra
 	dw MagikarpSaucyAnimationExtra
 	dw MagikarpRaindropAnimationExtra
+
+	dw UnownkingClassicAnimationExtra
+
+	dw CelebiLostAnimationExtra
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 

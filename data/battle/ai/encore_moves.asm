@@ -15,11 +15,11 @@ EncoreMoves:
 	db ROAR
 	db SCREECH
 	db SKILL_SWAP
-	db SPLASH
+	db STRUGGLE
 	db STRING_SHOT
 	db SUBSTITUTE
 	db SUPER_FANG
 	db SWORDS_DANCE
 	db TELEPORT
-	db TRICK
+	db NIGHTMARE
 	db -1 ; end

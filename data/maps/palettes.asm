@@ -92,7 +92,8 @@ ENDM
 	special_bg_pal tileset,  TILESET_ICE_PATH,            PAL_SINGLE,    IcePathPalette
 	special_bg_pal tileset,  TILESET_SAFARI_ZONE,         PAL_TIMEOFDAY, SafariZonePalette
 	special_bg_pal tileset,  TILESET_RUINS_OF_ALPH,       PAL_SINGLE,    RuinsPalette
-	special_bg_pal tileset,  TILESET_ALPH_WORD_ROOM,      PAL_SINGLE,    RuinsPalette
+	special_bg_pal tileset,  TILESET_ALPH_INNER_CHAMBER,  PAL_SINGLE,    RuinsChamberPalette
+	special_bg_pal tileset,  TILESET_ALPH_WORD_ROOM,      PAL_SINGLE,    RuinsChamberPalette
 	special_bg_pal tileset,  TILESET_SNOWTOP_MOUNTAIN,    PAL_TIMEOFDAY, SnowtopMountainPalette
 	special_bg_pal overcast, (unused),                    PAL_TIMEOFDAY, OvercastBGPalette
 	db 0 ; end
@@ -235,6 +236,19 @@ endc
 RuinsPalette:
 if !DEF(MONOCHROME)
 INCLUDE "gfx/tilesets/ruins_of_alph.pal"
+else
+rept 7
+	MONOCHROME_RGB_FOUR
+endr
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_WHITE
+	RGB_MONOCHROME_DARK
+	RGB_MONOCHROME_BLACK
+endc
+
+RuinsChamberPalette:
+if !DEF(MONOCHROME)
+INCLUDE "gfx/tilesets/ruins_of_alph_inner_chamber.pal"
 else
 rept 7
 	MONOCHROME_RGB_FOUR

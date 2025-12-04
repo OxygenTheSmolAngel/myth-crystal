@@ -540,7 +540,7 @@
 	wildmon 51, GRANBULL
 	wildmon 54, VULPIX
 	wildmon 54, JIGGLYPUFF
-	wildmon 52, RATICATE
+	wildmon 52, PORYGON
 	wildmon 51, WIGGLYTUFF
 	; day
 	wildmon 49, RATICATE
@@ -548,7 +548,7 @@
 	wildmon 51, GRANBULL
 	wildmon 54, VULPIX
 	wildmon 54, JIGGLYPUFF
-	wildmon 52, RATICATE
+	wildmon 52, PORYGON
 	wildmon 51, WIGGLYTUFF
 	; nite
 	wildmon 49, PERSIAN
@@ -556,7 +556,7 @@
 	wildmon 51, HOUNDOUR
 	wildmon 54, VULPIX
 	wildmon 54, JIGGLYPUFF
-	wildmon 52, PERSIAN
+	wildmon 52, PORYGON
 	wildmon 51, WIGGLYTUFF
 	end_grass_wildmons
 
@@ -1208,7 +1208,7 @@
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 65, CROBAT
-	wildmon 65, PARASECT
+	wildmon 65, AMBIPOM
 	wildmon 66, PRIMEAPE
 	wildmon 67, TANGROWTH
 	wildmon 68, MACHAMP
@@ -1216,7 +1216,7 @@
 	wildmon 70, DITTO
 	; day
 	wildmon 65, CROBAT
-	wildmon 65, PARASECT
+	wildmon 65, AMBIPOM
 	wildmon 66, PRIMEAPE
 	wildmon 67, TANGROWTH
 	wildmon 68, MACHAMP
@@ -1224,7 +1224,7 @@
 	wildmon 70, DITTO
 	; nite
 	wildmon 65, CROBAT
-	wildmon 65, PARASECT
+	wildmon 65, WEAVILE
 	wildmon 66, PRIMEAPE
 	wildmon 67, TANGROWTH
 	wildmon 68, MACHAMP
@@ -1236,56 +1236,56 @@
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	wildmon 67, CROBAT
-	wildmon 67, PARASECT
+	wildmon 67, AMBIPOM
 	wildmon 68, MACHAMP
 	wildmon 69, MAGNEZONE
 	wildmon 70, ALAKAZAM
-	wildmon 69, ELECTRODE
+	wildmon 69, DUDUNSPARCE
 	wildmon 72, DITTO
 	; day
 	wildmon 67, CROBAT
-	wildmon 67, PARASECT
+	wildmon 67, AMBIPOM
 	wildmon 68, MACHAMP
 	wildmon 69, MAGNEZONE
 	wildmon 70, ALAKAZAM
-	wildmon 69, ELECTRODE
+	wildmon 69, DUDUNSPARCE
 	wildmon 72, DITTO
 	; nite
 	wildmon 67, CROBAT
-	wildmon 67, PARASECT
+	wildmon 67, WEAVILE
 	wildmon 68, MACHAMP
 	wildmon 69, MAGNEZONE
 	wildmon 70, GENGAR
-	wildmon 69, ELECTRODE
+	wildmon 69, DUDUNSPARCE
 	wildmon 72, DITTO
 	end_grass_wildmons
 
 	def_grass_wildmons CERULEAN_CAVE_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	wildmon 69, PARASECT
 	wildmon 69, MAGNEZONE
 	wildmon 70, MACHAMP
 	wildmon 71, GOLEM
 	wildmon 72, ALAKAZAM
 	wildmon 71, RAICHU
 	wildmon 74, DITTO
+	wildmon 75, BLISSEY
 	; day
-	wildmon 69, PARASECT
 	wildmon 69, MAGNEZONE
 	wildmon 70, MACHAMP
 	wildmon 71, GOLEM
 	wildmon 72, ALAKAZAM
 	wildmon 71, RAICHU
 	wildmon 74, DITTO
+	wildmon 75, BLISSEY
 	; nite
-	wildmon 69, PARASECT
 	wildmon 69, MAGNEZONE
 	wildmon 70, MACHAMP
 	wildmon 71, GOLEM
 	wildmon 72, GENGAR
 	wildmon 71, RAICHU
 	wildmon 74, DITTO
+	wildmon 75, BLISSEY
 	end_grass_wildmons
 
 	def_grass_wildmons DIM_CAVE_1F

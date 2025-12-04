@@ -109,7 +109,7 @@ MovementData_WarpToSinjohRuins:
 	step_end
 
 RuinsofAlphSinjohChamberMystriText:
-	text "The lead enters"
+	para "The lead enters"
 	line "the Mystri Stage"
 	cont "at last."
 	done

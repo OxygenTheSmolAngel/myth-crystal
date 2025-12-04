@@ -150,4 +150,5 @@ TrainerGroups:
 	dba ImakuniGroup
 	dba LawrenceGroup
 	dba ReiGroup
+	dba GoldGroup
 	assert_table_length NUM_TRAINER_CLASSES

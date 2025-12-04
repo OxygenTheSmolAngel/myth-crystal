@@ -221,7 +221,7 @@ SeagallopFerryVermilionGateSailorArrive2MovementData:
 	step_end
 
 SeagallopFerryWelcomeText:
-	text "Welcome aboard the"
+	para "Welcome aboard the"
 	line "Seagallop Ferry!"
 	done
 

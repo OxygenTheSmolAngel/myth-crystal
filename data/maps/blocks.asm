@@ -312,6 +312,10 @@ SECTION "RuinsOfAlphSinjohChamber_BlockData", ROMX
 RuinsOfAlphSinjohChamber_BlockData:
 	INCBIN "maps/RuinsOfAlphSinjohChamber.ablk.lz"
 
+SECTION "RuinsOfAlphUnownKingChamber_BlockData", ROMX
+RuinsOfAlphUnownKingChamber_BlockData:
+	INCBIN "maps/RuinsOfAlphUnownKingChamber.ablk.lz"
+
 SECTION "RuinsOfAlphAerodactylChamber_BlockData", ROMX
 RuinsOfAlphAerodactylChamber_BlockData:
 RuinsOfAlphHoOhChamber_BlockData:
@@ -1140,6 +1144,10 @@ SoulHouseB2F_BlockData:
 SECTION "SoulHouseB3F_BlockData", ROMX
 SoulHouseB3F_BlockData:
 	INCBIN "maps/SoulHouseB3F.ablk.lz"
+
+SECTION "SoulHouseGrave_BlockData", ROMX
+SoulHouseGrave_BlockData:
+	INCBIN "maps/SoulHouseGrave.ablk.lz"
 
 SECTION "LavRadioTower1F_BlockData", ROMX
 LavRadioTower1F_BlockData:

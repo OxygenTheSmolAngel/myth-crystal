@@ -1994,14 +1994,25 @@ BattleAnim_Facade:
 	anim_wait 16
 	anim_ret
 
-BattleAnim_Splash:
-	anim_1gfx ANIM_GFX_HIT
-	anim_sound 0, 0, SFX_VICEGRIP
-	anim_call BattleAnim_TargetObj_2Row
-	anim_bgeffect ANIM_BG_BOUNCE_DOWN, $0, $1, $0
-	anim_wait 96
-	anim_incbgeffect ANIM_BG_BOUNCE_DOWN
-	anim_call BattleAnim_ShowMon_0
+BattleAnim_BerserkChomp:
+	anim_2gfx ANIM_GFX_CUT, ANIM_GFX_HIT
+	anim_bgp $1b
+	anim_obp0 $c0
+	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $20, $2, $0
+	anim_obj ANIM_OBJ_BITE, -15, 0,    7, 0, $a8
+	anim_obj ANIM_OBJ_BITE, -15, 0,    7, 0, $28
+	anim_obj ANIM_OBJ_BITE, -15, 0,    7, 0, $38
+	anim_wait 8
+	anim_sound 0, 1, SFX_BITE
+	anim_obj ANIM_OBJ_HIT_BIG_YFIX, -14, 0,   6, 0, $18
+	anim_wait 16
+	anim_sound 0, 1, SFX_BITE
+	anim_obj ANIM_OBJ_HIT_BIG_YFIX,  16, 0,   8, 0, $18
+	anim_wait 16
+	anim_sound 0, 1, SFX_BITE
+	anim_obj ANIM_OBJ_HIT_BIG_YFIX,  16, 0,   8, 0, $18
+	anim_wait 8
+	anim_bgp $e4
 	anim_ret
 
 BattleAnim_Dig:
@@ -6234,25 +6245,17 @@ BattleAnim_GigaImpact:
 	anim_wait 16
 	anim_ret
 
-BattleAnim_Trick:
-	anim_1gfx ANIM_GFX_STATUS
-	anim_clearopponenthud
-	anim_bgeffect ANIM_BG_SHOW_MON, $0, $0, $0
-	anim_sound 0, 1, SFX_GET_COIN_FROM_SLOTS
-	anim_obj ANIM_OBJ_TRICK, 90, 68, $18
-	anim_obj ANIM_OBJ_TRICK, 90, 68, $38
-	anim_wait 16
-.loop
-	anim_sound 0, 1, SFX_STOP_SLOT
-	anim_wait 32
-	anim_loop 4, .loop
-	anim_wait 7
-	anim_sound 0, 1, SFX_SLOT_MACHINE_START
-	anim_incobj 1
-	anim_incobj 2
-	anim_wait 6
-	anim_clearobjs
-	anim_wait 6
+BattleAnim_Nightmare:
+	anim_1gfx ANIM_GFX_ANGELS
+	anim_sound 0, 0, SFX_BUBBLE_BEAM
+	anim_obj ANIM_OBJ_IN_NIGHTMARE,   8, 4,  10, 0, $0
+	anim_1gfx ANIM_GFX_ANGELS
+	anim_sound 0, 0, SFX_BUBBLE_BEAM
+	anim_obj ANIM_OBJ_IN_NIGHTMARE,   8, 4,  10, 0, $0
+	anim_1gfx ANIM_GFX_ANGELS
+	anim_sound 0, 0, SFX_BUBBLE_BEAM
+	anim_obj ANIM_OBJ_IN_NIGHTMARE,   8, 4,  10, 0, $0
+	anim_wait 40
 	anim_ret
 
 BattleAnim_StatUp:

@@ -73,6 +73,15 @@ HallOfFameEntranceTrigger:
 	readvar VAR_BADGES
 	ifless 16, .NotATrueRematch
 	setevent EVENT_BEAT_ELITE_FOUR_AGAIN
+	checkevent EVENT_BEAT_UNKI
+	iffalsefwd .SkipPhoneCall
+	clearevent EVENT_BEAT_UNKI
+	pause 50
+	cry UNOWN_KING
+	opentext
+	writetext .UnkiResetText
+	waitbutton
+	closetext
 .NotATrueRematch
 	setevent EVENT_BEAT_ELITE_FOUR
 	setevent EVENT_RIVAL_SPROUT_TOWER
@@ -179,3 +188,10 @@ HallOfFameEntranceTrigger:
 	text "Silver Trophy"
 	line "was sent home."
 	done
+
+.UnkiResetText
+	text "The Ruins of Alph"
+	line "seem to be"
+	cont "restless again..."
+	done
+

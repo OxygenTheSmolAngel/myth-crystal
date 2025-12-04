@@ -328,6 +328,7 @@ TilesetLighthouseAnim::
 TilesetPokeComAnim::
 TilesetBattleTowerAnim::
 TilesetRuinsAnim::
+TilesetChamberAnim::
 TilesetRadioTowerAnim::
 TilesetAlphAnim::
 TilesetPokemonMansionAnim::

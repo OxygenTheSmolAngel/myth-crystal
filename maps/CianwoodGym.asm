@@ -46,6 +46,18 @@ CianwoodGymChuckScript:
 	pause 30
 	showtextfaceplayer ChuckIntroText3
 	winlosstext ChuckLossText, 0
+	checkflag ENGINE_MINERALBADGE
+	iffalsefwd .NoMineralBadge
+	loadtrainer CHUCK, 3
+	startbattle
+	reloadmapafterbattle
+	setevent EVENT_BEAT_CHUCK
+	opentext
+	givebadge STORMBADGE, JOHTO_REGION
+	specialphonecall SPECIALCALL_YELLOWFOREST
+	sjumpfwd .FightDone
+
+.NoMineralBadge
 	loadtrainer CHUCK, 1
 	startbattle
 	reloadmapafterbattle
@@ -53,6 +65,8 @@ CianwoodGymChuckScript:
 	opentext
 	givebadge STORMBADGE, JOHTO_REGION
 	specialphonecall SPECIALCALL_YELLOWFOREST
+	sjumpfwd .FightDone
+
 .FightDone:
 	checkevent EVENT_GOT_TM01_DYNAMICPUNCH
 	iftrue_jumpopenedtext ChuckAfterText

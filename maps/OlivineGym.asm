@@ -28,6 +28,8 @@ OlivineGymJasmineScript:
 	waitbutton
 	closetext
 	winlosstext Jasmine_BetterTrainer, 0
+	checkflag ENGINE_STORMBADGE
+	iffalsefwd .NoStormBadge
 	loadtrainer JASMINE, 1
 	startbattle
 	reloadmapafterbattle
@@ -36,6 +38,19 @@ OlivineGymJasmineScript:
 	givebadge MINERALBADGE, JOHTO_REGION
 	clearevent EVENT_GOLDENROD_CITY_ROCKET_TAKEOVER
 	setmapscene ROUTE_42, $1
+	sjumpfwd .FightDone
+
+.NoStormBadge
+	loadtrainer JASMINE, 3
+	startbattle
+	reloadmapafterbattle
+	setevent EVENT_BEAT_JASMINE
+	opentext
+	givebadge MINERALBADGE, JOHTO_REGION
+	clearevent EVENT_GOLDENROD_CITY_ROCKET_TAKEOVER
+	setmapscene ROUTE_42, $1
+	sjumpfwd .FightDone
+
 .FightDone:
 	checkevent EVENT_GOT_TM23_IRON_TAIL
 	iftrue_jumpopenedtext Jasmine_GoodLuck

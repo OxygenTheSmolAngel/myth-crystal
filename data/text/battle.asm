@@ -1278,6 +1278,12 @@ CantEscapeNowText:
 	line "can't escape now!"
 	prompt
 
+StartedNightmareText:
+	text "<TARGET>"
+	line "started to have a"
+	cont "NIGHTMARE!"
+	prompt
+
 WasDefrostedText:
 	text "<USER>"
 	line "was defrosted!"
@@ -1644,8 +1650,8 @@ GetOutText:
 	line "Get out…"
 	prompt
 
-CarrieFinalPkmnText:
 CalFinalPkmnText:
+CarrieFinalPkmnText:
 JackyFinalPkmnText:
 	text "I still have one"
 	line "#mon!"
@@ -2113,3 +2119,9 @@ LawrenceFinalPkmnText:
 ReiFinalPkmnText:
 	text "I'm not done yet."
 	prompt
+
+GoldFinalPkmnText:
+    text "NO MORE..."
+    line "PLEASE..."
+    prompt
+

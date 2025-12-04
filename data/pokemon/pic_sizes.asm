@@ -309,6 +309,7 @@ INCLUDE "gfx/pokemon/dudunsparce_two_segment/front.dimensions"
 INCLUDE "gfx/pokemon/farigiraf/front.dimensions"
 INCLUDE "gfx/pokemon/clodsire/front.dimensions"
 INCLUDE "gfx/pokemon/annihilape/front.dimensions"
+INCLUDE "gfx/pokemon/unownking/front.dimensions"
 	assert_list_length NUM_SPECIES
 
 INCLUDE "gfx/pokemon/unown_b/front.dimensions"
@@ -371,6 +372,10 @@ INCLUDE "gfx/pokemon/magikarp_forehead2/front.dimensions"
 INCLUDE "gfx/pokemon/magikarp_mask2/front.dimensions"
 INCLUDE "gfx/pokemon/magikarp_saucy/front.dimensions"
 INCLUDE "gfx/pokemon/magikarp_raindrop/front.dimensions"
+
+INCLUDE "gfx/pokemon/unownking_drawing/front.dimensions"
+
+INCLUDE "gfx/pokemon/celebi_lost/front.dimensions"
 
 	assert_list_length NUM_SPECIES + NUM_COSMETIC_FORMS
 

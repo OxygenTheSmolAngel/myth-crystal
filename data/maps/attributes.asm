@@ -462,6 +462,7 @@ ENDM
 	map_attributes RuinsOfAlphOmanyteWordRoom, RUINS_OF_ALPH_OMANYTE_WORD_ROOM, $0, 0
 	map_attributes RuinsOfAlphAerodactylWordRoom, RUINS_OF_ALPH_AERODACTYL_WORD_ROOM, $0, 0
 	map_attributes RuinsOfAlphSinjohChamber, RUINS_OF_ALPH_SINJOH_CHAMBER, $0, 0
+	map_attributes RuinsOfAlphUnownKingChamber, RUINS_OF_ALPH_UNOWNKING_CHAMBER, $0, 0
 	map_attributes Route22Past, ROUTE_22_PAST, $2c, 0
 	map_attributes UnionCave1F, UNION_CAVE_1F, $9, 0
 	map_attributes UnionCaveB1FNorth, UNION_CAVE_B1F_NORTH, $9, 0
@@ -700,6 +701,7 @@ ENDM
 	map_attributes SoulHouseB1F, SOUL_HOUSE_B1F, $6c, 0
 	map_attributes SoulHouseB2F, SOUL_HOUSE_B2F, $6c, 0
 	map_attributes SoulHouseB3F, SOUL_HOUSE_B3F, $6c, 0
+	map_attributes SoulHouseGrave, SOUL_HOUSE_GRAVE, $6c, 0
 	map_attributes LavRadioTower1F, LAV_RADIO_TOWER_1F, $0, 0
 	map_attributes LavRadioTower2F, LAV_RADIO_TOWER_2F, $0, 0
 	map_attributes LavRadioTower3F, LAV_RADIO_TOWER_3F, $0, 0

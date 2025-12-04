@@ -31,7 +31,7 @@ MoveDescriptions::
 	dw ToxicSpikesDescription
 	dw HeadbuttDescription
 	dw HornAttackDescription
-	dw TrickDescription
+	dw NightmareDescription
 	dw HexDescription
 	dw TackleDescription
 	dw BodySlamDescription
@@ -150,7 +150,7 @@ MoveDescriptions::
 	dw SporeDescription
 	dw FlashDescription
 	dw ExtrasensoryDescription
-	dw SplashDescription
+	dw BerserkChompDescription
 	dw DragonDanceDescription
 	dw CrabhammerDescription
 	dw ExplosionDescription
@@ -1025,9 +1025,9 @@ TransformDescription:
 	next "the foe's guise."
 	done
 
-SplashDescription:
-	text "Has no effect"
-	next "whatsoever."
+BerserkChompDescription:
+	text "User chomps wildly"
+	next "for 2-3 turns.@"
 	done
 
 BonemerangDescription:
@@ -1250,7 +1250,7 @@ GyroBallDescription:
 	next "at lower speed."
 	done
 
-TrickDescription:
+NightmareDescription:
 	text "Swaps held items"
 	next "with the foe."
 	done

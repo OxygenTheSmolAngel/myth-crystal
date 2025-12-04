@@ -111,7 +111,7 @@ LoadTrainer_continue::
 	ld a, [wMapScriptsBank]
 	ld [wSeenTrainerBank], a
 
-	xor a
+xor a
 	ld [wTrainerPal], a
 
 	ldh a, [hLastTalked]

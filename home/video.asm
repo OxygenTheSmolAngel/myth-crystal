@@ -382,13 +382,6 @@ Serve2bppRequest::
 
 	ld b, a ; save tile count for later
 
-; Back out if we're too far into VBlank
-	ldh a, [rLY]
-	cp 144
-	ret c
-	cp 146
-	ret nc
-
 	xor a
 	ldh [hRequested2bpp], a
 

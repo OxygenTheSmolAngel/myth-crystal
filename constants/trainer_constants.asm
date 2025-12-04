@@ -1132,26 +1132,28 @@ DEF CRYS EQU __trainer_class__
 
 	trainerclass REI ; 93
 
+	trainerclass GOLD ; 94
+
 DEF NUM_TRAINER_CLASSES EQU __trainer_class__ - 1
 
-	trainerclass OMASTAR_FOSSIL ; 94
+	trainerclass OMASTAR_FOSSIL ; 95
 
-	trainerclass KABUTOPS_FOSSIL ; 95
+	trainerclass KABUTOPS_FOSSIL ; 96
 
-	trainerclass AERODACTYL_FOSSIL ; 96
+	trainerclass AERODACTYL_FOSSIL ; 97
 
-	trainerclass CUBONE_ARMOR ; 97
+	trainerclass CUBONE_ARMOR ; 98
 
-	trainerclass METEORITE ; 98
+	trainerclass METEORITE ; 99
 
-	trainerclass SILHOUETTE ; 99
+	trainerclass SILHOUETTE ; 9a
 
 DEF NUM_TRAINER_CLASS_PICS EQU __trainer_class__ - 1
-	trainerpal SAYO ; 9a
-	trainerpal ZUKI ; 9b
-	trainerpal KUNI ; 9c
-	trainerpal MIKI ; 9d
-	trainerpal MAKO ; 9e
-	trainerpal AMI  ; 9f
-	trainerpal MINA ; a0
+	trainerpal SAYO ; 9b
+	trainerpal ZUKI ; 9c
+	trainerpal KUNI ; 9d
+	trainerpal MIKI ; 9e
+	trainerpal MAKO ; 9f
+	trainerpal AMI  ; a0
+	trainerpal MINA ; a1
 DEF NUM_TRAINER_PALS EQU __trainer_pal__ - 1

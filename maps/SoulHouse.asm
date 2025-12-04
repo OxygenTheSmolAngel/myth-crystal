@@ -2,6 +2,7 @@ SoulHouse_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
+	callback MAPCALLBACK_OBJECTS, SetupMrFujiCallback
 
 	def_warp_events
 	warp_event  4,  9, LAVENDER_TOWN, 6
@@ -14,13 +15,21 @@ SoulHouse_MapScriptHeader:
 
 	def_object_events
 	object_event  9,  7, SPRITE_AGATHA, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, AgathaScript, -1
-	object_event  4,  2, SPRITE_ELDER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, MrFujiScript, -1 ; TODO: EVENT_SOUL_HOUSE_MR_FUJI
+	object_event  5,  2, SPRITE_ELDER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, MrFujiScript, EVENT_SOUL_HOUSE_MR_FUJI
 	object_event  7,  3, SPRITE_POKEFAN_F, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, SoulHouseTeacherText, -1
 	object_event  2,  7, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, SoulHouseLassText, -1
 	object_event  1,  5, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, SoulHouseGrannyText, -1
 
 	object_const_def
 	const SOULHOUSE_AGATHA
+	const SOULHOUSE_MRFUJI
+
+SetupMrFujiCallback:
+	checkevent EVENT_SOUL_HOUSE_MR_FUJI
+	iftruefwd .Appear
+.Appear:
+	appear SOULHOUSE_MRFUJI
+	endcallback
 
 AgathaScript:
 	faceplayer
@@ -47,19 +56,19 @@ AgathaAfterScript:
 MrFujiScript:
 	faceplayer
 	opentext
-	writetext MrFujiText
+	writetext MrFuji2Text
 	waitbutton
 	checkevent EVENT_GOT_SILPHSCOPE2_FROM_MR_FUJI
 	iftrue_endtext
-	writetext MrFujiGiveSilphScopeText
+	writetext MrFujiGiveSilphScope2Text
 	waitbutton
 	verbosegivekeyitem SILPHSCOPE2
-	writetext MrFujiUseThisText
+	writetext MrFujiUseThis2Text
 	waitbutton
 	setevent EVENT_GOT_SILPHSCOPE2_FROM_MR_FUJI
 	endtext
 
-MrFujiText:
+MrFuji2Text:
 	text "Mr.Fuji: Welcome."
 
 	para "Hmm… You appear to"
@@ -84,14 +93,14 @@ MrFujiText:
 	line "make them happy."
 	done
 
-MrFujiGiveSilphScopeText:
+MrFujiGiveSilphScope2Text:
 	text "Here, I have"
 	line "a gift for you."
 
 	para "Please, take it."
 	done
 
-MrFujiUseThisText:
+MrFujiUseThis2Text:
 	text "You may use that"
 	line "to help ease the"
 

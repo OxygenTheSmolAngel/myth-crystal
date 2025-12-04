@@ -255,7 +255,7 @@ BitmasksPointers:
 	dw WynautBitmasks
 	dw AmbipomBitmasks
 	dw EggBitmasks
-	dw EggBitmasks ; $100
+	dw EggBitmasks
 	dw MismagiusBitmasks
 	dw HonchkrowBitmasks
 	dw BonslyBitmasks
@@ -291,6 +291,7 @@ BitmasksPointers:
 	dw FarigirafBitmasks
 	dw ClodsireBitmasks
 	dw AnnihilapeBitmasks
+	dw UnownkingBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks
@@ -353,6 +354,10 @@ BitmasksPointers:
 	dw MagikarpMask2Bitmasks
 	dw MagikarpSaucyBitmasks
 	dw MagikarpRaindropBitmasks
+
+    dw UnownkingClassicBitmasks
+
+    dw CelebiLostBitmasks
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 

@@ -136,7 +136,6 @@ SECTION "Ruins of Alph Scripts", ROMX
 
 INCLUDE "maps/RuinsOfAlphOutside.asm"
 
-
 SECTION "Ruins of Alph Scripts 2", ROMX
 
 INCLUDE "maps/RuinsOfAlphResearchCenter.asm"; shares text with RuinsOfAlphKabutoChamber.asm
@@ -156,6 +155,9 @@ INCLUDE "maps/RuinsOfAlphHoOhWordRoom.asm"
 INCLUDE "maps/RuinsOfAlphKabutoWordRoom.asm"
 INCLUDE "maps/RuinsOfAlphOmanyteWordRoom.asm"
 
+SECTION "Ruins of Alph Scripts 3", ROMX
+
+INCLUDE "maps/RuinsOfAlphUnownKingChamber.asm"
 
 SECTION "Sinjoh Ruins Scripts", ROMX
 
@@ -611,6 +613,9 @@ INCLUDE "maps/SoulHouseB1F.asm"
 INCLUDE "maps/SoulHouseB2F.asm"
 INCLUDE "maps/SoulHouseB3F.asm"
 
+SECTION "Soul House Grave Script", ROMX
+
+INCLUDE "maps/SoulHouseGrave.asm"
 
 SECTION "Lav Radio Tower Scripts", ROMX
 

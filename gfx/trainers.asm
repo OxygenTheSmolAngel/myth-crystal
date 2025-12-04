@@ -440,6 +440,9 @@ LawrencePic: INCBIN "gfx/trainers/lawrence.2bpp.lz"
 SECTION "ReiPic", ROMX
 ReiPic: INCBIN "gfx/trainers/rei.2bpp.lz"
 
+SECTION "GoldPic", ROMX
+GoldPic: INCBIN "gfx/trainers/gold.2bpp.lz"
+
 SECTION "OmastarFossilPic", ROMX
 OmastarFossilPic: INCBIN "gfx/trainers/omastar_fossil.2bpp.lz"
 
@@ -457,3 +460,4 @@ MeteoritePic: INCBIN "gfx/trainers/meteorite.2bpp.lz"
 
 SECTION "SilhouettePic", ROMX
 SilhouettePic: INCBIN "gfx/trainers/silhouette.2bpp.lz"
+

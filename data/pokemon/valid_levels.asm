@@ -296,4 +296,5 @@ endc
 	db  32, 100 ; Farigiraf
 	db  20, 100 ; Clodsire
 	db  56, 100 ; Annihilape
+	db 255, 255 ; Unown King
 	assert_table_length NUM_SPECIES

@@ -295,6 +295,7 @@ PokemonPicPointers::
 	pics Farigiraf
 	pics Clodsire
 	pics Annihilape
+	pics Unownking
 	assert_table_length NUM_SPECIES
 
 	pics UnownB
@@ -357,6 +358,10 @@ PokemonPicPointers::
 	pics MagikarpMask2
 	pics MagikarpSaucy
 	pics MagikarpRaindrop
+
+	pics UnownkingClassic
+
+	pics CelebiLost
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS
 

@@ -295,11 +295,16 @@ OverworldMonIconColors::
 	iconpal BROWN, BLUE ; FARIGIRAF
 	iconpal BROWN, BLUE ; CLODSIRE
 	iconpal GRAY, PURPLE ; ANNIHILAPE
+	iconpal GRAY, RED ; UNOWN_KING
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1
 	iconpal GRAY, BLUE
 endr
+
+    iconpal GRAY, BLUE ; UNOWN_KING, UNOWN_KING_DRAWING
+
+	iconpal WHITE, PINK ; CELEBI, CELEBI_LOST_FORM
 
 rept NUM_ARBOK - 1
 	iconpal PURPLE, BROWN
@@ -313,6 +318,7 @@ endr
 
 rept NUM_MAGIKARP - 1
 	iconpal RED, BROWN
+
 endr
 
 	assert_table_length NUM_SPECIES + NUM_COSMETIC_FORMS

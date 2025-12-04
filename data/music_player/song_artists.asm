@@ -4,6 +4,7 @@ SongArtists:
 	li "Junichi Masuda"
 	li "Go Ichinose"
 	li "Junichi Masuda,     Go Ichinose"
+	li "Go Ichinose,        Jun Ishikawa"
 	li "Morikazu Aoki"
 	li "Shota Kageyama"
 	li "Junichi Masuda,     Shota Kageyama"
@@ -28,4 +29,9 @@ SongArtists:
 	li "NotFroggestSpirit"
 	li "Toby Fox"
 	li "ShinkoNetCavy,      ShockSlayer"
+	li "OxygenTheSmolAngel"
+	li "Jun Ishikawa"
+	li "Manami Matsumae"
+	li "Adam McHummus"
+	li "Lady Gaga,          LHUGUENY"
 	assert_list_length NUM_SONG_ARTISTS

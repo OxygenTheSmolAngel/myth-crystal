@@ -23,10 +23,10 @@ StallMoves:
 	db REFLECT
 	db SCREECH
 	db SKILL_SWAP
-	db SPLASH
+	db STRUGGLE
 	db STRING_SHOT
 	db SUBSTITUTE
 	db SWORDS_DANCE
 	db TRANSFORM
-	db TRICK
+	db NIGHTMARE
 	db -1 ; end

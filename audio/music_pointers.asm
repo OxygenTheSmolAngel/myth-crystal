@@ -195,4 +195,14 @@ Music:
 	dba Music_GymLeaderBattlePrism
 	dba Music_PaletteBattlePrism
 	dba Music_Megalovania
+	dba Music_Waterfall
+	dba Music_Bergentruckung
+	dba Music_Asgore
+	dba Music_Undertale
+	dba Music_Carpet
+	dba Music_TheLegend
+	dba Music_BlackKnife
+	dba Music_ZeroTwo
+	dba Music_IronWhale
+	dba Music_Monochrome
 	assert_table_length NUM_MUSIC_SONGS

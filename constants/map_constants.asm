@@ -402,17 +402,18 @@ ENDM
 	map_const SOUL_HOUSE_B1F,                             10,  9 ; 12
 	map_const SOUL_HOUSE_B2F,                             10,  9 ; 13
 	map_const SOUL_HOUSE_B3F,                              4,  9 ; 14
-	map_const LAV_RADIO_TOWER_1F,                         10,  4 ; 15
-	map_const LAV_RADIO_TOWER_2F,                          9,  4 ; 16
-	map_const LAV_RADIO_TOWER_3F,                          9,  4 ; 17
-	map_const LAV_RADIO_TOWER_4F,                          9,  4 ; 18
-	map_const LAV_RADIO_TOWER_5F,                          7,  4 ; 19
-	map_const HAUNTED_RADIO_TOWER_2F,                      9,  4 ; 20
-	map_const HAUNTED_RADIO_TOWER_3F,                      9,  4 ; 21
-	map_const HAUNTED_RADIO_TOWER_4F,                      9,  4 ; 22
-	map_const HAUNTED_RADIO_TOWER_5F,                      8,  9 ; 23
-	map_const HAUNTED_RADIO_TOWER_6F,                      8,  9 ; 24
-	map_const ROUTE_16_WEST,                              31, 13 ; 25
+	map_const SOUL_HOUSE_GRAVE,                           17, 17 ; 15
+	map_const LAV_RADIO_TOWER_1F,                         10,  4 ; 16
+	map_const LAV_RADIO_TOWER_2F,                          9,  4 ; 17
+	map_const LAV_RADIO_TOWER_3F,                          9,  4 ; 18
+	map_const LAV_RADIO_TOWER_4F,                          9,  4 ; 19
+	map_const LAV_RADIO_TOWER_5F,                          7,  4 ; 20
+	map_const HAUNTED_RADIO_TOWER_2F,                      9,  4 ; 21
+	map_const HAUNTED_RADIO_TOWER_3F,                      9,  4 ; 22
+	map_const HAUNTED_RADIO_TOWER_4F,                      9,  4 ; 23
+	map_const HAUNTED_RADIO_TOWER_5F,                      8,  9 ; 24
+	map_const HAUNTED_RADIO_TOWER_6F,                      8,  9 ; 25
+	map_const ROUTE_16_WEST,                              31, 13 ; 26
 
 	newgroup                                                     ; 19
 	map_const ROUTE_28,                                   19,  9 ;  1
@@ -620,7 +621,7 @@ ENDM
 	map_const RUINS_OF_ALPH_OMANYTE_CHAMBER,               4,  5 ;  4
 	map_const RUINS_OF_ALPH_AERODACTYL_CHAMBER,            4,  5 ;  5
 	map_const RUINS_OF_ALPH_ENTRANCE_CHAMBER,              4,  4 ;  6
-	map_const RUINS_OF_ALPH_INNER_CHAMBER,                10, 14 ;  7
+	map_const RUINS_OF_ALPH_INNER_CHAMBER,                10, 17 ;  7
 	map_const RUINS_OF_ALPH_RESEARCH_CENTER,               4,  4 ;  8
 	map_const RUINS_OF_ALPH_HO_OH_ITEM_ROOM,               4,  5 ;  9
 	map_const RUINS_OF_ALPH_KABUTO_ITEM_ROOM,              4,  5 ; 10
@@ -631,7 +632,8 @@ ENDM
 	map_const RUINS_OF_ALPH_OMANYTE_WORD_ROOM,            10,  8 ; 15
 	map_const RUINS_OF_ALPH_AERODACTYL_WORD_ROOM,         10,  7 ; 16
 	map_const RUINS_OF_ALPH_SINJOH_CHAMBER,                5,  5 ; 17
-	map_const ROUTE_22_PAST,                               6,  6 ; 18
+	map_const RUINS_OF_ALPH_UNOWNKING_CHAMBER,            13, 20 ; 18
+	map_const ROUTE_22_PAST,                               6,  6 ; 19
 
 	newgroup                                                     ; 31
 	map_const SHAMOUTI_ISLAND,                            18, 15 ;  1

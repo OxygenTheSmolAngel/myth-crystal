@@ -1,4 +1,16 @@
-# Pokémon Polished Crystal
+# Pokémon Myth Crystal
+
+This is a modification of Polished Crystal that primarily adds the Unown King from the classic creepypasta "Curse of the Unown King" into the game. However, this also adds a few changes to the Gym Leader teams, wild encounters, new events, etc.
+
+This is my first time doing ROM Hacking with the Pokecrystal disassembly, so it's not gonna be that impressive. However, I might update this from time to time if I get the motivation. But regardless, be prepared, though... *He* is waiting for you...
+
+*(Note: The screenshots are outdated.)*
+
+![the-statue](screenshots/thestatue.jpg)
+![unown-king](screenshots/unownkingencounter.jpg)
+
+---------------
+The original ReadMe from Polished Crystal ( https://github.com/Rangi42/polishedcrystal ):
 
 This is a custom Pokémon game based on [the Pokémon Crystal disassembly](https://github.com/pret/pokecrystal).
 

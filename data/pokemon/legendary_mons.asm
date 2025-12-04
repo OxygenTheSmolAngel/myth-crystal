@@ -12,4 +12,5 @@ UberMons::
 	dp LUGIA
 	dp HO_OH
 	dp CELEBI
+	dp UNOWN_KING
 	db 0

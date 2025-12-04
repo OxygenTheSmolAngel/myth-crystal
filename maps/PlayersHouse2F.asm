@@ -50,7 +50,6 @@ PlayersHousePoster:
 PlayersHouseRadio:
 
 if DEF(DEBUG)
-
 	opentext
 	; time
 	special Special_SetDayOfWeek
@@ -155,22 +154,6 @@ endr
 	setflag ENGINE_SOULBADGE
 	setflag ENGINE_VOLCANOBADGE
 	setflag ENGINE_EARTHBADGE
-	setevent EVENT_BEAT_FALKNER
-	setevent EVENT_BEAT_BUGSY
-	setevent EVENT_BEAT_WHITNEY
-	setevent EVENT_BEAT_MORTY
-	setevent EVENT_BEAT_CHUCK
-	setevent EVENT_BEAT_JASMINE
-	setevent EVENT_BEAT_PRYCE
-	setevent EVENT_BEAT_CLAIR
-	setevent EVENT_BEAT_BROCK
-	setevent EVENT_BEAT_MISTY
-	setevent EVENT_BEAT_LTSURGE
-	setevent EVENT_BEAT_ERIKA
-	setevent EVENT_BEAT_JANINE
-	setevent EVENT_BEAT_SABRINA
-	setevent EVENT_BEAT_BLAINE
-	setevent EVENT_BEAT_BLUE
 	setevent EVENT_BEAT_ELITE_FOUR
 	setevent EVENT_BEAT_ELITE_FOUR_AGAIN
 	setevent EVENT_BATTLE_TOWER_OPEN
@@ -323,7 +306,10 @@ endc
 	ret
 
 else
-
+    clearevent EVENT_UNKI_CHAMBER_UNLOCKED
+    clearevent EVENT_CAUGHT_UNKI
+    clearevent EVENT_BEAT_UNKI
+    clearevent EVENT_UNKI_CHAMBER_UNLOCKED
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
 	iftruefwd .NormalRadio
 	checkevent EVENT_LISTENED_TO_INITIAL_RADIO

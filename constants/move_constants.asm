@@ -36,7 +36,7 @@
 	const TOXIC_SPIKES  ; $1c
 	const HEADBUTT      ; $1d
 	const HORN_ATTACK   ; $1e
-	const TRICK         ; $1f
+	const NIGHTMARE     ; $1f
 	const HEX           ; $20
 	const TACKLE        ; $21
 	const BODY_SLAM     ; $22
@@ -155,7 +155,7 @@
 	const SPORE         ; $93
 	const FLASH         ; $94
 	const EXTRASENSORY  ; $95
-	const SPLASH        ; $96
+	const BERSERKCHOMP  ; $96
 	const DRAGON_DANCE  ; $97
 	const CRABHAMMER    ; $98
 	const EXPLOSION     ; $99

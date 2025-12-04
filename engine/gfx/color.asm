@@ -751,12 +751,12 @@ LoadTempMonPalette:
 	jr _FinishLoadNicknamedMonPalette
 
 LoadTrainerPalette:
-	ld a, [wTrainerPal]
+    ld a, [wTrainerPal]
 	and a
 	jr nz, .use_custom_pal
 	; a = class
 	ld a, [wTrainerClass]
-.use_custom_pal
+	.use_custom_pal
 	; hl = palette
 	call GetTrainerPalettePointer
 	; load palette in BG 7

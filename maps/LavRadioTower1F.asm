@@ -34,6 +34,8 @@ LavRadioTower1FUpstairsScript:
 
 LavRadioTower1FGentlemanScript:
 	faceplayer
+	clearevent EVENT_BEAT_GOLD
+	clearevent EVENT_GIFTED_GOLD_CELEBI
 	opentext
 	checkflag ENGINE_EXPN_CARD
 	iftrue_jumpopenedtext .GotExpnCardText

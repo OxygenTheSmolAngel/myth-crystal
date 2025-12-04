@@ -195,6 +195,16 @@
 	const MUSIC_GYM_LEADER_BATTLE_PRISM        ; bf ; unused
 	const MUSIC_PALETTE_BATTLE_PRISM           ; c0 ; unused
 	const MUSIC_UNDERTALE_MEGALOVANIA          ; c1 ; unused
+	const MUSIC_UNDERTALE_WATERFALL            ; c2
+	const MUSIC_UNDERTALE_BERGENTRUCKUNG       ; c3
+	const MUSIC_UNDERTALE_ASGORE               ; c4
+	const MUSIC_STORY_OF_UNDERTALE             ; c5
+	const MUSIC_CARPET                         ; c6
+	const MUSIC_THE_LEGEND                     ; c7
+	const MUSIC_BLACK_KNIFE                    ; c8
+	const MUSIC_ZERO_TWO                       ; c9
+	const MUSIC_IRON_WHALE                     ; ca
+	const MUSIC_MONOCHROME                     ; cb
 DEF NUM_MUSIC_SONGS EQU const_value
 
 ; GetMapMusic picks music for these values (see data/maps/alternate_music.asm)

@@ -9,8 +9,8 @@ BattleMusic_Trainers:
 	db BRUNO,            MUSIC_ELITE_FOUR_BATTLE_SM
 	db KAREN,            MUSIC_ELITE_FOUR_BATTLE_SM
 	db CHAMPION,         MUSIC_CHAMPION_BATTLE
-	db RED,              MUSIC_WCS_BATTLE_BW
-	db LEAF,             MUSIC_CHAMPION_BATTLE_B2W2
+	db RED,              MUSIC_BLACK_KNIFE
+	db LEAF,             MUSIC_ZERO_TWO
 	db RIVAL0,           MUSIC_RIVAL_BATTLE
 	db RIVAL1,           MUSIC_RIVAL_BATTLE
 	db RIVAL2,           MUSIC_RIVAL_BATTLE
@@ -36,7 +36,7 @@ BattleMusic_Trainers:
 	db BUCK,             MUSIC_TRAINER_BATTLE_DPPT
 	db MARLEY,           MUSIC_TRAINER_BATTLE_DPPT
 	db MIRA,             MUSIC_TRAINER_BATTLE_DPPT
-	db ANABEL,           MUSIC_TRAINER_BATTLE_DPPT
+	db ANABEL,           MUSIC_FRONTIER_BRAIN_BATTLE_RSE
 	db DARACH,           MUSIC_FRONTIER_BRAIN_BATTLE_RSE
 	db CAITLIN,          MUSIC_ELITE_FOUR_BATTLE_BW
 	db CANDELA,          MUSIC_GYM_LEADER_BATTLE_GO
@@ -51,6 +51,7 @@ BattleMusic_Trainers:
 	db KATY,             MUSIC_GYM_LEADER_BATTLE_SWSH
 	db WALKER,           MUSIC_JOHTO_GYM_LEADER_BATTLE
 	db LAWRENCE,         MUSIC_ZINNIA_BATTLE_ORAS
+	db GOLD,             MUSIC_MONOCHROME
 	db -1
 
 BattleMusic_Legendaries:
@@ -68,6 +69,7 @@ BattleMusic_Legendaries:
 	music_legendary HO_OH,    PLAIN_FORM,    MUSIC_HO_OH_BATTLE_HGSS
 	music_legendary LUGIA,    PLAIN_FORM,    MUSIC_LUGIA_BATTLE_HGSS
 	music_legendary CELEBI,   PLAIN_FORM,    MUSIC_SUICUNE_BATTLE
+   music_legendary UNOWN_KING,PLAIN_FORM,    MUSIC_HO_OH_BATTLE_HGSS
 	dw -1
 
 BattleMusic_RegionalTrainers:

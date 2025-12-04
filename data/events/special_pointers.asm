@@ -143,6 +143,7 @@ SpecialsPointers::
 	add_special WonderTrade
 	add_special RespawnOneOffs
 	add_special SpecialGiveShinyDitto
+	add_special SpecialGiveShinyCelebi
 	add_special GiveMystriEgg
 	add_special Special_ReiBlessing
 	add_special BillBoxSwitchCheck

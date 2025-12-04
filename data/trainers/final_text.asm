@@ -111,5 +111,6 @@ FinalText_SinglePhrases:
 	dw ImakuniFinalPkmnText
 	dw LawrenceFinalPkmnText
 	dw ReiFinalPkmnText
+	dw GoldFinalPkmnText
 	; all trainers between LEAF and PROF_OAK are omitted
 	assert_table_length NUM_TRAINER_CLASSES - (PROF_OAK - LEAF - 1)

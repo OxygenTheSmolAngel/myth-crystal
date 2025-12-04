@@ -239,6 +239,7 @@ OverqwilAnimationExtra:   INCLUDE "gfx/pokemon/overqwil/anim_idle.asm"
 FarigirafAnimationExtra:  INCLUDE "gfx/pokemon/farigiraf/anim_idle.asm"
 ClodsireAnimationExtra:   INCLUDE "gfx/pokemon/clodsire/anim_idle.asm"
 AnnihilapeAnimationExtra: INCLUDE "gfx/pokemon/annihilape/anim_idle.asm"
+UnownkingAnimationExtra:  INCLUDE "gfx/pokemon/unownking/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 
@@ -307,6 +308,10 @@ MagikarpForehead2AnimationExtra:
 MagikarpMask2AnimationExtra:
 MagikarpSaucyAnimationExtra:
 MagikarpRaindropAnimationExtra: INCLUDE "gfx/pokemon/magikarp/anim_idle.asm"
+
+UnownkingClassicAnimationExtra: INCLUDE "gfx/pokemon/unownking_drawing/anim_idle.asm"
+
+CelebiLostAnimationExtra:   INCLUDE "gfx/pokemon/celebi_lost/anim_idle.asm"
 
 DudunsparceTwoSegmentAnimationExtra:   INCLUDE "gfx/pokemon/dudunsparce_two_segment/anim_idle.asm"
 DudunsparceThreeSegmentAnimationExtra: INCLUDE "gfx/pokemon/dudunsparce_three_segment/anim_idle.asm"

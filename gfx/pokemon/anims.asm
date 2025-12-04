@@ -239,6 +239,7 @@ OverqwilAnimation:   INCLUDE "gfx/pokemon/overqwil/anim.asm"
 FarigirafAnimation:  INCLUDE "gfx/pokemon/farigiraf/anim.asm"
 ClodsireAnimation:   INCLUDE "gfx/pokemon/clodsire/anim.asm"
 AnnihilapeAnimation: INCLUDE "gfx/pokemon/annihilape/anim.asm"
+UnownkingAnimation:  INCLUDE "gfx/pokemon/unownking/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 
@@ -310,6 +311,10 @@ MagikarpRaindropAnimation: INCLUDE "gfx/pokemon/magikarp/anim.asm"
 
 DudunsparceTwoSegmentAnimation:   INCLUDE "gfx/pokemon/dudunsparce_two_segment/anim.asm"
 DudunsparceThreeSegmentAnimation: INCLUDE "gfx/pokemon/dudunsparce_three_segment/anim.asm"
+
+UnownkingClassicAnimation: INCLUDE "gfx/pokemon/unownking_drawing/anim.asm"
+
+CelebiLostAnimation:   INCLUDE "gfx/pokemon/celebi_lost/anim.asm"
 
 GyaradosPlainAnimation: INCLUDE "gfx/pokemon/gyarados_plain/anim.asm"
 GyaradosRedAnimation:   INCLUDE "gfx/pokemon/gyarados_red/anim.asm"

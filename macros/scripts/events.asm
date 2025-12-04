@@ -1399,7 +1399,7 @@ MACRO pluralize
 	dw \1 ; pointer
 ENDM
 
-	const loadtrainerwithpal_command
+    const loadtrainerwithpal_command
 MACRO loadtrainerwithpal
 	db loadtrainerwithpal_command
 	db \1 ; trainer_group

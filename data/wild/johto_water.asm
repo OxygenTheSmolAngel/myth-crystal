@@ -87,8 +87,8 @@
 	def_water_wildmons WHIRL_ISLAND_B2F
 	db 4 percent ; encounter rate
 	wildmon 20, HORSEA
-	wildmon 25, TENTACRUEL
 	wildmon 30, OCTILLERY
+	wildmon 25, SQUIRTLE
 	end_water_wildmons
 
 	def_water_wildmons WHIRL_ISLAND_LUGIA_CHAMBER
@@ -184,7 +184,7 @@
 
 	def_water_wildmons ROUTE_41
 	db 3 percent ; encounter rate
-	wildmon 20, TENTACOOL
+	wildmon 20, MANTYKE
 	wildmon 20, MANTINE
 	wildmon 20, REMORAID
 	end_water_wildmons
@@ -254,7 +254,7 @@
 
 	def_water_wildmons CIANWOOD_CITY
 	db 6 percent ; encounter rate
-	wildmon 20, TENTACOOL
+	wildmon 20, MANTYKE
 	wildmon 20, MANTINE
 	wildmon 20, REMORAID
 	end_water_wildmons

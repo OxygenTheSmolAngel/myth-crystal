@@ -50,6 +50,7 @@ Tilesets::
 	tileset TilesetPark
 	tileset TilesetSafari
 	tileset TilesetRuins
+	tileset TilesetChamber
 	tileset TilesetAlph
 	tileset TilesetPokemonMansion
 	tileset TilesetBattleFactory
@@ -743,6 +744,21 @@ TilesetRuinsMeta:: INCBIN "data/tilesets/ruins_of_alph_metatiles.bin.lz"
 TilesetRuinsAttr:: INCBIN "data/tilesets/ruins_of_alph_attributes.bin.lz"
 TilesetRuinsColl:: INCBIN "data/tilesets/ruins_of_alph_collision.bin.lz"
 
+SECTION "Tileset Graphics - ruins of alph chamber vram0", ROMX
+
+TilesetChamberGFX0:: INCBIN "gfx/tilesets/ruins_of_alph_inner_chamber.2bpp.vram0.lz"
+
+
+SECTION "Tileset Graphics - ruins of alph chamber vram1", ROMX
+
+TilesetChamberGFX1:: INCBIN "gfx/tilesets/ruins_of_alph_inner_chamber.2bpp.vram1.lz"
+
+
+SECTION "Tileset Data - ruins of alph chamber", ROMX
+
+TilesetChamberMeta:: INCBIN "data/tilesets/ruins_of_alph_inner_chamber_metatiles.bin.lz"
+TilesetChamberAttr:: INCBIN "data/tilesets/ruins_of_alph_inner_chamber_attributes.bin.lz"
+TilesetChamberColl:: INCBIN "data/tilesets/ruins_of_alph_inner_chamber_collision.bin.lz"
 
 SECTION "Tileset Data - alph word room", ROMX
 
@@ -841,6 +857,7 @@ TilesetForestGFX2::
 TilesetParkGFX2::
 TilesetSafariGFX2::
 TilesetRuinsGFX2::
+TilesetChamberGFX2::
 TilesetAlphGFX2::
 TilesetPokemonMansionGFX2::
 TilesetBattleFactoryGFX2::

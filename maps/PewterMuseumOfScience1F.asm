@@ -278,15 +278,23 @@ Museum1FScientistText:
 	done
 
 Museum1FFossilScientistText:
-	text "Did you know that"
-	line "you can extract"
+	text "Ah, hello there."
+	line "You must be from"
+	cont "Johto."
 
-	para "#mon from"
-	line "fossils?"
+	para "If that's the"
+	line "case, then you"
+	cont "must have met my"
 
-	para "If you ever need"
-	line "to, let me take"
-	cont "care of it!"
+	para "long-distance"
+	line "colleague."
+
+	para "Like he may have"
+	line "told you, I can"
+	cont "resurrect any"
+
+	para "fossils you"
+	line "have."
 	done
 
 Museum1FGrampsText:

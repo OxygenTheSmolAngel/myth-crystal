@@ -17,6 +17,7 @@ Route29_MapScriptHeader:
 	bg_event 23,  4, BGEVENT_JUMPTEXT, Route29AdvancedTipsSignText
 
 	def_object_events
+	object_event 27,  2, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Route29FisherScript, EVENT_FISHER_SAVED
 	object_event 50, 12, SPRITE_LYRA, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_LYRA_ROUTE_29
 	object_event 29, 12, SPRITE_POKEFAN_F, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, TuscanyScript, EVENT_ROUTE_29_TUSCANY_OF_TUESDAY
 	object_event 27, 16, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route29YoungsterText, -1
@@ -24,13 +25,14 @@ Route29_MapScriptHeader:
 	cuttree_event 30,  9, EVENT_ROUTE_29_CUT_TREE_1
 	cuttree_event 21, 11, EVENT_ROUTE_29_CUT_TREE_2
 	fruittree_event 12,  2, FRUITTREE_ROUTE_29, ORAN_BERRY, PAL_NPC_BLUE
-	object_event 25,  3, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route29FisherText, -1
 	object_event 13,  4, SPRITE_COOL_DUDE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Route29CooltrainerMScript, -1
 	itemball_event 48,  2, POTION, 1, EVENT_ROUTE_29_POTION
 
 	object_const_def
+	const ROUTE29_FISHER
 	const ROUTE29_LYRA
 	const ROUTE29_TUSCANY
+	const ROUTE29_BUG_CATCHER
 
 Route29Tuscany:
 	checkevent EVENT_TALKED_TO_MOM_AFTER_MYSTERY_EGG_QUEST
@@ -40,8 +42,7 @@ Route29Tuscany:
 .TuscanyDisappears:
 	disappear ROUTE29_TUSCANY
 	endcallback
-
-.TuscanyAppears
+.TuscanyAppears:
 	appear ROUTE29_TUSCANY
 	endcallback
 
@@ -132,6 +133,32 @@ TuscanyScript:
 TuscanyNotTuesdayScript:
 	jumpopenedtext TuscanyNotTuesdayText
 
+Route29FisherScript:
+	faceplayer
+	checkevent EVENT_FISHER_SAVED
+	iffalsefwd .HasNotSaved
+	opentext
+    writetext Route29FisherAlreadySavedText
+    waitbutton
+    closetext
+    end
+
+.HasNotSaved
+	opentext
+	writetext Route29FisherText
+	waitbutton
+	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
+	iffalsefwd .StillSaving
+	writetext Route29FisherSavedText
+	waitbutton
+	closetext
+	applymovement ROUTE29_FISHER, FisherMovementData
+	setevent EVENT_FISHER_SAVED
+	end
+
+.StillSaving:
+    end
+
 LyraMovementData1a:
 	step_up
 LyraMovementData2a:
@@ -166,6 +193,12 @@ LyraMovementData3:
 	step_left
 	step_left
 	step_end
+
+FisherMovementData:
+    step_left
+    step_left
+    step_down
+    step_end
 
 CatchingTutorialIntroText:
 	text "Lyra: <PLAYER>!"
@@ -229,10 +262,32 @@ Route29TeacherText:
 
 Route29FisherText:
 	text "I wanted to take a"
-	line "break, so I saved"
+	line "break, so I am"
+	cont "currently saving"
 
 	para "to record my"
 	line "progress."
+
+	para "Please give me a"
+	line "moment."
+	done
+
+Route29FisherSavedText:
+	text "Phew. Just saved"
+	line "my progress."
+
+	para "Oh wait... Am I"
+	line "in the way?"
+
+	para "My apologies."
+	line "I'll move out of"
+	cont "the way."
+	done
+
+Route29FisherAlreadySavedText:
+	text "It is important"
+	line "to save from"
+	cont "time to time."
 	done
 
 Text_WaitingForNight:
@@ -321,7 +376,7 @@ Route29Sign2Text:
 Route29AdvancedTipsSignText:
 	text "Advanced Tips!"
 
-	para "Press Down+B at"
+	para "Press DownB at"
 	line "the title screen"
 
 	para "to reset the"
