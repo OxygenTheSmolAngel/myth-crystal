@@ -8,8 +8,6 @@
 
 ***Note: The following changelog may contain spoilers.***
 
-
-
 ## v3.2.3
 
 Critical hotfix release.
@@ -18,6 +16,7 @@ This update addresses a battle engine game crash.
 
 ### Fixes
 - Fix Flare Blitz crashing the game when called by Metronome or Sleep Talk
+
 
 ## v3.2.2
 

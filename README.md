@@ -26,7 +26,7 @@ I've had vague plans to make a Pokémon game for years. I'm very impressed by th
 
 The **current official release** is **v3.2.3** (the “Polished Crystal” release). It's fully playable from start to finish and includes major overhauls to gameplay, mechanics, and quality of life. A more detailed changelog is forthcoming, but you can find the major highlights below.
 
-- **[Download v3.2.2 here](https://github.com/Rangi42/polishedcrystal/releases/tag/v3.2.2)**
+- **[Download v3.2.3 here](https://github.com/Rangi42/polishedcrystal/releases/tag/v3.2.3)**
 
 The previous official version was [v3.1.1](https://github.com/Rangi42/polishedcrystal/releases/tag/v3.1.1) (February 1, 2025).
 
