@@ -1,4 +1,4 @@
-# Pokémon Myth Crystal
+# Pokémon Myth Crystal (Discontinued)
 
 This is a modification of Polished Crystal that primarily adds the Unown King from the classic creepypasta "Curse of the Unown King" into the game. However, this also adds a few changes to the Gym Leader teams, wild encounters, new events, etc.
 
